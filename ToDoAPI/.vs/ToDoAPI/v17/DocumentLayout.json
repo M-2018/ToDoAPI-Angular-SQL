@@ -1,0 +1,101 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Alucard\\Practicas\\Prueba Tecnica Angular - Velaio\\ToDoAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{CE14F37B-D924-40FE-8711-1D1A9B0C8C29}|ToDoAPI.csproj|c:\\alucard\\practicas\\prueba tecnica angular - velaio\\todoapi\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE14F37B-D924-40FE-8711-1D1A9B0C8C29}|ToDoAPI.csproj|solutionrelative:controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE14F37B-D924-40FE-8711-1D1A9B0C8C29}|ToDoAPI.csproj|c:\\alucard\\practicas\\prueba tecnica angular - velaio\\todoapi\\models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE14F37B-D924-40FE-8711-1D1A9B0C8C29}|ToDoAPI.csproj|solutionrelative:models\\todotask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE14F37B-D924-40FE-8711-1D1A9B0C8C29}|ToDoAPI.csproj|c:\\alucard\\practicas\\prueba tecnica angular - velaio\\todoapi\\models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE14F37B-D924-40FE-8711-1D1A9B0C8C29}|ToDoAPI.csproj|solutionrelative:models\\person.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE14F37B-D924-40FE-8711-1D1A9B0C8C29}|ToDoAPI.csproj|c:\\alucard\\practicas\\prueba tecnica angular - velaio\\todoapi\\models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE14F37B-D924-40FE-8711-1D1A9B0C8C29}|ToDoAPI.csproj|solutionrelative:models\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE14F37B-D924-40FE-8711-1D1A9B0C8C29}|ToDoAPI.csproj|c:\\alucard\\practicas\\prueba tecnica angular - velaio\\todoapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE14F37B-D924-40FE-8711-1D1A9B0C8C29}|ToDoAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Alucard\\Practicas\\Prueba Tecnica Angular - Velaio\\ToDoAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Alucard\\Practicas\\Prueba Tecnica Angular - Velaio\\ToDoAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAAAA0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T05:07:44.386Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TodoController.cs",
+              "DocumentMoniker": "C:\\Alucard\\Practicas\\Prueba Tecnica Angular - Velaio\\ToDoAPI\\Controllers\\TodoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TodoController.cs",
+              "ToolTip": "C:\\Alucard\\Practicas\\Prueba Tecnica Angular - Velaio\\ToDoAPI\\Controllers\\TodoController.cs",
+              "RelativeToolTip": "Controllers\\TodoController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAACEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T03:32:28.718Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "C:\\Alucard\\Practicas\\Prueba Tecnica Angular - Velaio\\ToDoAPI\\Models\\Skill.cs",
+              "RelativeDocumentMoniker": "Models\\Skill.cs",
+              "ToolTip": "C:\\Alucard\\Practicas\\Prueba Tecnica Angular - Velaio\\ToDoAPI\\Models\\Skill.cs",
+              "RelativeToolTip": "Models\\Skill.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T01:50:07.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Person.cs",
+              "DocumentMoniker": "C:\\Alucard\\Practicas\\Prueba Tecnica Angular - Velaio\\ToDoAPI\\Models\\Person.cs",
+              "RelativeDocumentMoniker": "Models\\Person.cs",
+              "ToolTip": "C:\\Alucard\\Practicas\\Prueba Tecnica Angular - Velaio\\ToDoAPI\\Models\\Person.cs",
+              "RelativeToolTip": "Models\\Person.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T01:49:12.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TodoTask.cs",
+              "DocumentMoniker": "C:\\Alucard\\Practicas\\Prueba Tecnica Angular - Velaio\\ToDoAPI\\Models\\TodoTask.cs",
+              "RelativeDocumentMoniker": "Models\\TodoTask.cs",
+              "ToolTip": "C:\\Alucard\\Practicas\\Prueba Tecnica Angular - Velaio\\ToDoAPI\\Models\\TodoTask.cs",
+              "RelativeToolTip": "Models\\TodoTask.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-28T01:48:13.01Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

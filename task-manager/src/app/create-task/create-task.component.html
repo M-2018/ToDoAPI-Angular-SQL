@@ -1,0 +1,77 @@
+<form [formGroup]="taskForm" (ngSubmit)="onSubmit()" style="padding: 30px; border-radius: 10px;" class="bgcomp">
+  <!-- Título de la tarea -->
+  <div class="mb-3">
+    <label for="taskName" style="color: #34495e;">Nombre de la tarea:</label>
+    <input id="taskName" formControlName="name" required class="form-control" />
+    <div *ngIf="taskForm.get('name')?.invalid && (taskForm.get('name')?.touched || taskForm.get('name')?.dirty)">
+      <small class="text-danger">El nombre de la tarea es obligatorio y debe tener al menos 3 caracteres.</small>
+    </div>
+  </div>
+
+  <!-- Fecha límite -->
+  <div class="mb-3">
+    <label for="dueDate" style="color: #34495e;">Fecha límite:</label>
+    <input id="dueDate" type="date" formControlName="dueDate" required class="form-control" />
+    <div *ngIf="taskForm.get('dueDate')?.invalid && (taskForm.get('dueDate')?.touched || taskForm.get('dueDate')?.dirty)">
+      <small class="text-danger">La fecha límite es obligatoria y debe ser una fecha futura.</small>
+    </div>
+  </div>
+
+  <!-- Mensajes de error -->
+  <div *ngIf="showPersonError" class="alert alert-danger">
+    Debes agregar al menos una persona.
+  </div>
+  <div *ngIf="showNameError" class="alert alert-danger">
+    Los nombres de las personas no pueden repetirse.
+  </div>
+  <div *ngIf="showSkillsError" class="alert alert-danger">
+    Cada persona debe tener al menos una habilidad.
+  </div>
+
+  <!-- Personas -->
+  <div>
+    <h3 style="color: #34495e;">Personas asociadas</h3>
+    <div formArrayName="persons">
+      <div *ngFor="let person of persons.controls; let i = index" [formGroupName]="i" class="card mb-3 p-3"
+        style="background-color: #ffffff; border-radius: 10px; box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);">
+        
+        <!-- Nombre -->
+        <div class="mb-3">
+          <label for="personName" style="color: #34495e;">Nombre Completo:</label>
+          <input formControlName="name" required class="form-control" />
+          <div *ngIf="person.get('name')?.invalid && (person.get('name')?.touched || person.get('name')?.dirty)">
+            <small class="text-danger">El nombre es obligatorio.</small>
+          </div>
+        </div>
+
+        <!-- Edad -->
+        <div class="mb-3">
+          <label for="personAge" style="color: #34495e;">Edad:</label>
+          <input formControlName="age" type="number" required class="form-control" />
+          <div *ngIf="person.get('age')?.invalid && (person.get('age')?.touched || person.get('age')?.dirty)">
+            <small class="text-danger">La edad es obligatoria.</small>
+            <small class="text-danger">Debe ser mayor a 18 años.</small>
+          </div>
+        </div>
+
+        <!-- Habilidades -->
+        <h4 style="color: #34495e;">Habilidades</h4>
+        <div formArrayName="skills">
+          <div *ngFor="let skill of getSkills(i).controls; let j = index" class="mb-2">
+            <input [formControlName]="j" required class="form-control mb-2" />
+            <button type="button" (click)="removeSkill(i, j)" class="btn btn-sm" style="background-color: #e74c3c; color: white;">Eliminar Habilidad</button>
+          </div>
+          <button type="button" (click)="addSkill(i)" class="btn btn-sm" style="background-color: #1abc9c; color: white;">Añadir Habilidad</button>
+        </div>
+
+        <button type="button" (click)="removePerson(i)" class="btn btn-sm mt-3" style="background-color: #e74c3c; color: white;">Eliminar Persona</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Botones -->
+  <div class="d-flex justify-content-start my-3">
+    <button type="button" (click)="addPerson()" class="btn btn-sm me-3" style="background-color: #1abc9c; color: white;">Añadir Persona</button>
+    <button type="submit" class="btn" style="background-color: #2980b9; color: white;">Guardar tarea</button>
+  </div>
+</form>
